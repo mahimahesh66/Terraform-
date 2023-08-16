@@ -22,21 +22,4 @@ mongo --host your_rds_endpoint --port your_rds_port --username your_username --p
 aws dynamodb --region your_region --endpoint-URL https://dynamodb.your_region.amazonaws.com
 MySQL -h your_rds_endpoint -P your_rds_port -u your_username -p your_database_name
 
-**********POSTGREALSQL************
-PostgreSQL is a powerful and feature-rich database system that follows the SQL (Structured Query Language) standard. 
-it suitable for various applications and use cases.
---Relational Database Management: PostgreSQL allows you to define, create, and manage relational databases with 
-multiple tables and relationships between them.
---PostgreSQL provides a flexible architecture that allows you to define custom data types, functions,
-and operators, enabling you to extend the database's functionality.
----Replication and High Availability: It offers built-in replication features
 
--------------MONGODB----------
-MongoDB is a popular open-source, NoSQL (non-relational) document-oriented database management system.
-It is designed to store, retrieve, and manage structured and unstructured data in a flexible 
-and scalable manner. MongoDB stores data in JSON)format , 
----Document-Oriented: MongoDB stores data in flexible, self-contained documents.
-A document is a set of key-value pairs, similar to JSON objects
----Scalability: MongoDB can scale horizontally 
----Flexible Data Model: MongoDB supports nested documents and arrays
---High Availability and Replication
