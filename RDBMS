@@ -1,0 +1,10 @@
+this is our ec2 code 
+
+aws_ec2:  "My_instance"
+ami_id:   :32c5ccdhrv/f"
+key pair: "B-16"
+instance type: "t2-large"
+
+{
+    tag: my_instance
+}
